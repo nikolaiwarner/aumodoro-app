@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_ca1d0f9447a337286a12c8ea63d66ce52851c7d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_d07ad95d23e582bb1738503f12227b0b0deac8cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-10.0.1_86ab97bcf1ba7233a1ed2467b35945bcf18cdae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_8f0fe5c0298b52d7834fd7369448b2305517a987.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_bccb930345590bf8eca51ca435b69d4e6c2da0f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_2d940b7242003b2b8a7f3292b7cbe496d3c69ee6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_f6188826c41db290d29127b69087918583e30afd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_1f423fc05b034b219bcea253c874e0879a986d52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-10.0.1_a0327bc135e36bf3fbf96e129155ea15d62833e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e2ec0f21e9d0162f12b2534f0b922402cdda0c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_e3b900b125e64657e67996ffb0c49e24d4a7228f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_b74cf22693bc04fed68bb7dc1633ebadf53223ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_c1dd3f32dc107b6ccf631d54b306fed3e57f40c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-10.0.1_4305814bfec2da4bc0d7a181a036d2e945e00df6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_42f66e2d26116407cc8da311ca1c734c1aaea2bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2638cae1642bf840f30eb583d8d77f43c61d2003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_299985f8167b332915c9104a0398f3676ccf4a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_f1d5eec07984dd5d7fe98f2a16c7458403edee39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_015e21a22b2ec43c65809f3b99a49257569b27db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_c1dd3f32dc107b6ccf631d54b306fed3e57f40c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_8f6ce1d53481f5f871ac3f4a93820f4ac1178904.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_f6188826c41db290d29127b69087918583e30afd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.1_980715ca90af6c057098ddebf8d83184687f4026.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_06e1ae531430d69f31f83ad50784877068e99e30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_11c879c4b685d1114863c50d77d7a80479be863a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_68b45ffd94047a16d7f3bae831b80b6ce5d49c78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_299985f8167b332915c9104a0398f3676ccf4a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_11c879c4b685d1114863c50d77d7a80479be863a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_b194c27dc13fd7fb009a5949688a1a2510aa93d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-10.0.1_86ab97bcf1ba7233a1ed2467b35945bcf18cdae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_08f9dbdc8bf5649f3855e9ab0eb84397ed861a0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_06e1ae531430d69f31f83ad50784877068e99e30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_f1d5eec07984dd5d7fe98f2a16c7458403edee39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.1_980715ca90af6c057098ddebf8d83184687f4026.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/aumodoro/react-native-firestack/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6a39db5749c32feb2c36c302461f3edb8b523023">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/aumodoro-react-native-firestack-unspecified_9bdcff5366ce444653ba364f40054acc1f414db3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_e6d9a7d58338c07899df89ecf347a6b3b2bb615d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-10.0.1_4305814bfec2da4bc0d7a181a036d2e945e00df6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_8f6ce1d53481f5f871ac3f4a93820f4ac1178904.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_00ffecc0fe65c3d1b84d6e81704ca2c1a25c4939.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_e3b900b125e64657e67996ffb0c49e24d4a7228f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_a7a83df6d364ab2fe19b4940beec75fb9ee26fe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_08f9dbdc8bf5649f3855e9ab0eb84397ed861a0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_c136145a4d30104cb95863a98be0b7afcb0c00a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_2d940b7242003b2b8a7f3292b7cbe496d3c69ee6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_3bbdb1c9a91d27c4bf0854d7ab00e6e7fe205455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_c36c88673ec33846665e8777102d19557b80f8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_e4603e39d3856db594b1c721a8fa37c3c53b6c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_68b45ffd94047a16d7f3bae831b80b6ce5d49c78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-10.0.1_a0327bc135e36bf3fbf96e129155ea15d62833e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_b194c27dc13fd7fb009a5949688a1a2510aa93d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_74dc6293c3cbfba36f92c98104ad7acccbaf31db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_a7a83df6d364ab2fe19b4940beec75fb9ee26fe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_86026df0f781191d9855e4ab2cd921fb646fdf1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_00ffecc0fe65c3d1b84d6e81704ca2c1a25c4939.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_5b8fb709cf2fdae1e4dfd3cdca09dbcfc316ea34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_c136145a4d30104cb95863a98be0b7afcb0c00a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_e4603e39d3856db594b1c721a8fa37c3c53b6c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_3bbdb1c9a91d27c4bf0854d7ab00e6e7fe205455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_015e21a22b2ec43c65809f3b99a49257569b27db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_3445c83430b724b052bbf44b1edbbb2360db71a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e2ec0f21e9d0162f12b2534f0b922402cdda0c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_74dc6293c3cbfba36f92c98104ad7acccbaf31db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_86026df0f781191d9855e4ab2cd921fb646fdf1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_e6d9a7d58338c07899df89ecf347a6b3b2bb615d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_ca1d0f9447a337286a12c8ea63d66ce52851c7d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_8f0fe5c0298b52d7834fd7369448b2305517a987.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_5b8fb709cf2fdae1e4dfd3cdca09dbcfc316ea34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_d07ad95d23e582bb1738503f12227b0b0deac8cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2638cae1642bf840f30eb583d8d77f43c61d2003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_c36c88673ec33846665e8777102d19557b80f8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_3445c83430b724b052bbf44b1edbbb2360db71a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_bccb930345590bf8eca51ca435b69d4e6c2da0f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/aumodoro/react-native-firestack/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6a39db5749c32feb2c36c302461f3edb8b523023">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/aumodoro-react-native-firestack-unspecified_9bdcff5366ce444653ba364f40054acc1f414db3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/nickwarner/repositories/jpdo/aumodoro-app/android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_b74cf22693bc04fed68bb7dc1633ebadf53223ec.jar" />
+    </item>
+
+</items>
