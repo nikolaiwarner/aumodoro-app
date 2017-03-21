@@ -6,19 +6,71 @@ import Firestack from 'react-native-firestack'
 const configurationOptions = {
   debug: true
 }
-const firestack = new Firestack(configurationOptions)
 
 export default class App extends React.Component {
   constructor (props) {
     super(props)
 
-    firestack.on('debug', msg => console.log('Received debug message', msg))
+    this.firestack = new Firestack(configurationOptions)
+    this.firestack.on('debug', msg => console.log('Received debug message', msg))
+
+    this.state = {
+      postStatus: 'Waiting...'
+    }
   }
 
   componentDidMount () {
+    this.firestack.auth.listenForAuth((evt) => {
+      // evt is the authentication event
+      // it contains an `error` key for carrying the
+      // error message in case of an error
+      // and a `user` key upon successful authentication
+      if (!evt.authenticated) {
+        // There was an error or there is no user
+        console.log(evt.error)
+        this._signIn()
+      } else {
+        // evt.user contains the user details
+        console.log('User details', evt.user)
+      }
+    }).then(() => console.log('Listening for authentication changes'))
+  }
+
+  componentWillUnmount () {
+    this.firestack.auth.unlistenForAuth()
   }
 
   _signIn () {
+    this.firestack.auth.signInWithEmail('nickwarner@gmail.com', 'password')
+      .then((user) => {
+        console.log('User successfully logged in', user)
+      })
+      .catch((err) => {
+        console.log('User signin error', err)
+      })
+  }
+
+  _post () {
+    this.firestack.database.ref('messages').push().then((res) => {
+      let newPostKey = res.key
+      this.firestack.ServerValue.then(map => {
+        const postData = {
+          timestamp: map.TIMESTAMP,
+          text: 'hello',
+          puid: newPostKey
+        }
+        let updates = {}
+        updates['/messages/' + newPostKey] = postData
+        this.firestack.database.ref().update(updates).then(() => {
+          this.setState({
+            postStatus: 'Posted! Thank You.',
+            postText: ''
+          })
+        }).catch(() => {
+          this.setState({ postStatus: 'Something went wrong!!!' })
+        })
+      })
+    })
   }
 
   render () {
@@ -27,6 +79,7 @@ export default class App extends React.Component {
         <TouchableOpacity onPress={this._post.bind(this, 'hello')}>
           <Text>Post</Text>
         </TouchableOpacity>
+        <Text>{this.state.postStatus}</Text>
       </View>
     )
   }
