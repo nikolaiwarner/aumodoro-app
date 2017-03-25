@@ -17,7 +17,7 @@ export default class App extends React.Component {
 
     this.state = {
       postStatus: 'Waiting...',
-      currentFocusTimeRemaining: 0
+      currentFocusTimeRemainingString: ''
     }
   }
 
@@ -36,6 +36,10 @@ export default class App extends React.Component {
         console.log('User details', evt.user)
       }
     }).then(() => console.log('Listening for authentication changes'))
+
+    setInterval(() => {
+      this._updateCurrentFocusTimeRemaining()
+    }, 1000)
   }
 
   componentWillUnmount () {
@@ -77,20 +81,26 @@ export default class App extends React.Component {
 
   _updateCurrentFocusTimeRemaining () {
     if (this.state.currentFocus) {
-      // ....
-      // this.setState({currentFocusTimeRemaining: ...})
+      console.log(this.state.currentFocus.endsAt)
+      let difference = moment(this.state.currentFocus.endsAt).diff(moment())
+      let remaining = moment.duration(difference, 'milliseconds')
+      this.setState({currentFocusTimeRemainingString: `${remaining.minutes()}:${remaining.seconds()}`})
     }
   }
 
   _startPom () {
     this.firestack.database.ref('poms').push().then((res) => {
-      this.firestack.ServerValue.then(map => {
+      this.firestack.ServerValue.then((map) => {
+        let length = 1500000 // 25min
+        let startsAt = moment().format()
+        let endsAt = moment(endsAt).add(length, 'milliseconds').format()
         const data = {
           ended: false,
-          length: 1500000, // 25min
+          length: length,
           id: res.key,
-          startsAt: map.TIMESTAMP,
-          endsAt: map.TIMESTAMP
+          createdAt: map.TIMESTAMP,
+          startsAt: startsAt,
+          endsAt: endsAt
         }
         let updates = {}
         updates['/focus/' + res.key] = data
@@ -111,7 +121,7 @@ export default class App extends React.Component {
         <TouchableOpacity onPress={this._startPom.bind(this)}>
           <Text>Start</Text>
         </TouchableOpacity>
-        <Text>{this.state.currentFocusTimeRemaining}</Text>
+        <Text>{this.state.currentFocusTimeRemainingString}</Text>
       </View>
     )
   }
