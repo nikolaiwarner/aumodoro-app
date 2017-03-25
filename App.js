@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import moment from 'moment'
 
 import Firestack from 'react-native-firestack'
 
@@ -15,7 +16,8 @@ export default class App extends React.Component {
     this.firestack.on('debug', msg => console.log('Received debug message', msg))
 
     this.state = {
-      postStatus: 'Waiting...'
+      postStatus: 'Waiting...',
+      currentFocusTimeRemaining: 0
     }
   }
 
@@ -73,13 +75,43 @@ export default class App extends React.Component {
     })
   }
 
+  _updateCurrentFocusTimeRemaining () {
+    if (this.state.currentFocus) {
+      // ....
+      // this.setState({currentFocusTimeRemaining: ...})
+    }
+  }
+
+  _startPom () {
+    this.firestack.database.ref('poms').push().then((res) => {
+      this.firestack.ServerValue.then(map => {
+        const data = {
+          ended: false,
+          length: 1500000, // 25min
+          id: res.key,
+          startsAt: map.TIMESTAMP,
+          endsAt: map.TIMESTAMP
+        }
+        let updates = {}
+        updates['/focus/' + res.key] = data
+        this.firestack.database.ref().update(updates).then(() => {
+          this.setState({
+            currentFocus: data
+          })
+        }).catch(() => {
+          this.setState({status: 'Something went wrong!!!'})
+        })
+      })
+    })
+  }
+
   render () {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this._post.bind(this, 'hello')}>
-          <Text>Post</Text>
+        <TouchableOpacity onPress={this._startPom.bind(this)}>
+          <Text>Start</Text>
         </TouchableOpacity>
-        <Text>{this.state.postStatus}</Text>
+        <Text>{this.state.currentFocusTimeRemaining}</Text>
       </View>
     )
   }

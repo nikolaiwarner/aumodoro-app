@@ -16,6 +16,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "moment": "^2.18.1",
     "react": "~15.4.0",
     "react-native": "0.42.3",
     "react-native-firestack": "^2.3.9"
