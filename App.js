@@ -13,7 +13,7 @@ export default class App extends React.Component {
     super(props)
 
     this.firestack = new Firestack(configurationOptions)
-    this.firestack.on('debug', msg => console.log('Received debug message', msg))
+    // this.firestack.database.setPersistence(true)
 
     this.state = {
       postStatus: 'Waiting...',
@@ -32,8 +32,7 @@ export default class App extends React.Component {
         console.log(evt.error)
         this._signIn()
       } else {
-        // evt.user contains the user details
-        console.log('User details', evt.user)
+        this._userIsReady(evt.user)
       }
     }).then(() => console.log('Listening for authentication changes'))
 
@@ -47,13 +46,26 @@ export default class App extends React.Component {
   }
 
   _signIn () {
-    this.firestack.auth.signInWithEmail('nickwarner@gmail.com', 'password')
+    return this.firestack.auth.signInWithEmail('nickwarner@gmail.com', 'password')
       .then((user) => {
-        console.log('User successfully logged in', user)
+        this._userIsReady(user)
       })
       .catch((err) => {
         console.log('User signin error', err)
       })
+  }
+
+  _userIsReady (user) {
+    console.log('User details', user)
+    this.databaseRef = this.firestack.database.ref(user.uid)
+    this.databaseRef.keepSynced(true)
+    this.setState({currentUser: user})
+    this._getPoms()
+  }
+
+  _pathToUserData (userId) {
+    userId = userId || this.state.currentUser.uid
+    return `users/${userId}`
   }
 
   _post () {
@@ -81,26 +93,34 @@ export default class App extends React.Component {
 
   _updateCurrentFocusTimeRemaining () {
     if (this.state.currentFocus) {
-      console.log(this.state.currentFocus.endsAt)
       let difference = moment(this.state.currentFocus.endsAt).diff(moment())
       let remaining = moment.duration(difference, 'milliseconds')
       this.setState({currentFocusTimeRemainingString: `${remaining.minutes()}:${remaining.seconds()}`})
     }
   }
 
+  _getPoms () {
+    console.log('_getPoms')
+    this.firestack.database.ref('poms').orderByChild('timestamp').limitToLast(30).once('userId').then((snapshot) => {
+      console.log(snapshot)
+    })
+  }
+
   _startPom () {
-    this.firestack.database.ref('poms').push().then((res) => {
+    console.log(this.state.currentUser)
+    this.firestack.database.ref(this._pathToUserData() + '/poms').push().then((res) => {
       this.firestack.ServerValue.then((map) => {
         let length = 1500000 // 25min
         let startsAt = moment().format()
         let endsAt = moment(endsAt).add(length, 'milliseconds').format()
         const data = {
+          createdAt: map.TIMESTAMP,
           ended: false,
+          endsAt: endsAt,
           length: length,
           id: res.key,
-          createdAt: map.TIMESTAMP,
           startsAt: startsAt,
-          endsAt: endsAt
+          userId: this.state.currentUser.uid
         }
         let updates = {}
         updates['/focus/' + res.key] = data
@@ -108,11 +128,18 @@ export default class App extends React.Component {
           this.setState({
             currentFocus: data
           })
+          this._getPoms()
         }).catch(() => {
           this.setState({status: 'Something went wrong!!!'})
         })
       })
     })
+  }
+
+  _stopPom () {
+    if (this.state.currentFocus) {
+
+    }
   }
 
   render () {
